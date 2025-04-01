@@ -1,0 +1,23 @@
+{
+  "name": "deployment-noted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEIR-0/deployment-noted.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NEIR-0/deployment-noted/issues"
+  },
+  "homepage": "https://github.com/NEIR-0/deployment-noted#readme"
+}
