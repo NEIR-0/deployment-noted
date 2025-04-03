@@ -8,7 +8,7 @@ app.post("/webhook", (req, res) => {
   console.log("Webhook received, executing deploy.sh...");
 
   exec(
-    "bash /var/www/html/deployment-noted/backend/deploy.sh",
+    "bash /var/www/html/deployment-noted/deploy.sh",
     (err, stdout, stderr) => {
       if (err) {
         console.error(`Error: ${stderr}`);
