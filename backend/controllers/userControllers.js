@@ -1,7 +1,9 @@
+const { User } = require("../database/models");
+
 class ControllerUser {
   static async createUser(req, res, next) {
-    console.log("masuk sini");
-    res.status(200).json({ message: "success changed auto build github" });
+    const dataUser = await User.findAll();
+    res.status(200).json(dataUser);
     try {
     } catch (error) {
       console.log(error);
